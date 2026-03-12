@@ -4,9 +4,7 @@ body {
   align-items: center;
   padding: 1rem;
 
-  & li {
-    list-style: none;
-    display: none;
+  
     & ul {
       display: flex;
       gap: 1rem;
@@ -15,9 +13,11 @@ body {
       border: 1px solid black;
       padding: 0.5rem;
       border-radius: 5px;
+      list-style: none;
+        display: none;
     }
   }
-}
+
 
 .articles {
   display: flex;
