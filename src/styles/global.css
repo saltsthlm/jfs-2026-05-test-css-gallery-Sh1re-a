@@ -48,3 +48,12 @@ body {
   background-color: black;
   margin: 2rem 0;
 }
+
+
+@media (min-width: 600px) {
+    body {
+        & li {
+        display: block;
+        }
+    }
+}
