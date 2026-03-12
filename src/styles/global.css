@@ -64,11 +64,6 @@ body {
   body {
     padding: 5rem;
 
-    main {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
   }
 
   .articles {
