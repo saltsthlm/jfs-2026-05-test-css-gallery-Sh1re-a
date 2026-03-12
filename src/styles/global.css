@@ -19,6 +19,11 @@ body  {
     }
 }
 
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
 .divider {
     width: 100%;
