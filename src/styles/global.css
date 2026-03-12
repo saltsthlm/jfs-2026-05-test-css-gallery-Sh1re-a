@@ -56,4 +56,10 @@ body {
         display: block;
         }
     }
+
+    .articles {
+        article {
+            width: 45%;
+        }
+    }
 }
