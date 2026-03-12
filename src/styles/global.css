@@ -70,6 +70,7 @@ body {
 
   .articles {
     flex-wrap: nowrap;
+    
     article {
       width: 25%;
     }
