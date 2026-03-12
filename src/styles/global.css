@@ -4,20 +4,18 @@ body {
   align-items: center;
   padding: 1rem;
 
-  
-    & ul {
-      display: flex;
-      gap: 1rem;
-    }
-    & li {
-      border: 1px solid black;
-      padding: 0.5rem;
-      border-radius: 5px;
-      list-style: none;
-        display: none;
-    }
+  & ul {
+    display: flex;
+    gap: 1rem;
   }
-
+  & li {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    list-style: none;
+    display: none;
+  }
+}
 
 .articles {
   display: flex;
@@ -38,7 +36,6 @@ body {
       align-items: center;
       font-size: 0.8rem;
     }
-
   }
 }
 
@@ -49,32 +46,35 @@ body {
   margin: 2rem 0;
 }
 
-
 @media (min-width: 600px) {
-    body {
-        & li {
-        display: block;
-        }
+  body {
+    & li {
+      display: block;
     }
+  }
 
-    .articles {
-        article {
-            width: 45%;
-        }
+  .articles {
+    article {
+      width: 45%;
     }
+  }
 }
 
-
 @media (min-width: 900px) {
+  body {
+    padding: 5rem;
 
-    body {
-        padding: 5rem;
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
     }
+  }
 
-
-    .articles {
-        article {
-            width: 20%;
-        }
+  .articles {
+    article {
+      max-height: auto;
+      max-width: 20%;
     }
+  }
 }
