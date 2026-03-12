@@ -60,7 +60,7 @@ body {
   }
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   body {
     padding: 5rem;
   }
