@@ -63,3 +63,18 @@ body {
         }
     }
 }
+
+
+@media (min-width: 900px) {
+
+    body {
+        padding: 5rem;
+    }
+
+
+    .articles {
+        article {
+            width: 20%;
+        }
+    }
+}
